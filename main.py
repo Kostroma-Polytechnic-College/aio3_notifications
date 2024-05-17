@@ -9,7 +9,7 @@ from bot.handlers import include_routers
 from bot.models import User
 from bot.singleton import GlobalVars
 
-bot = Bot(token="7144934541:AAHQftb4n4W41M4T1YFEe5UIzjbdbn9N_j8")
+bot = Bot(token="токен вашего телеграм бота")
 dp = Dispatcher()
 
 async def get_time_notify():
